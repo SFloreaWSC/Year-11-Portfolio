@@ -1,7 +1,48 @@
 body{
-   background-color: #decab8; 
+   background-color: #e6dac4; 
 }
 
-div.portfolio{
+.portfolio{
     font-size: 30px;
 }
+
+.headerkinda{
+    background-color: #31394D;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 50px;
+    height: 100%;
+    align-self: right;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #31394D;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #e6dac4;
+    text-align: center;
+    padding: 30px 60px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ceb49b;
+    color: #31394D;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    float: left;
+    background-color: #ceb49b;
+    color: #31394D;
+}
+
