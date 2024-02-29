@@ -6,16 +6,6 @@ body{
     font-size: 30px;
 }
 
-.headerkinda{
-    background-color: #31394D;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 50px;
-    height: 100%;
-    align-self: right;
-}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -37,6 +27,7 @@ body{
 .topnav a:hover {
     background-color: #ceb49b;
     color: #31394D;
+    font-size: 25px;
 }
 
 /* Add a color to the active/current link */
@@ -44,5 +35,41 @@ body{
     float: left;
     background-color: #ceb49b;
     color: #31394D;
+    font-size: 25px;
 }
 
+
+
+/*Side navigation bar*/ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 210px;
+    background-color: #31394D;
+    float:right;
+    overflow: auto;
+  }
+  
+li a {
+    display: block;
+    color: #e6dac4;
+    padding: 30px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+li a:hover {
+    background-color: #ceb49b;
+    color: #31394D;
+  }
+
+.empty a{
+    color:#31394D
+}
+
+.empty a:hover{
+    background-color:#31394D;
+    color:#31394D;
+    padding: 30px 16px;
+}
