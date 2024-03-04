@@ -15,7 +15,7 @@ body{
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: right;
+    float: left;
     color: #e6dac4;
     text-align: center;
     padding: 30px 60px;
@@ -41,7 +41,7 @@ body{
 
 
 /*Side navigation bar*/ 
-ul {
+.sidenav ul {
     list-style-type: none;
     margin: 0;
     padding: 0px;
@@ -51,7 +51,7 @@ ul {
     overflow: auto;
   }
   
-li a {
+.sidenav li a {
     display: block;
     color: #e6dac4;
     padding: 30px 16px;
@@ -59,11 +59,12 @@ li a {
   }
   
   /* Change the link color on hover */
-li a:hover {
+.sidenav li a:hover {
     background-color: #ceb49b;
     color: #31394D;
   }
 
+  /*empty sidenav space*/
 .empty a{
     color:#31394D
 }
