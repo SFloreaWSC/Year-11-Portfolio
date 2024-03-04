@@ -6,11 +6,15 @@ body{
     font-size: 60px;
 }
 
+h1{
+    font-size: 60px;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #31394D;
     overflow: hidden;
+    font-size: 25px;
 }
 
 /* Style the links inside the navigation bar */
@@ -48,7 +52,7 @@ body{
     width: 210px;
     background-color: #31394D;
     float:right;
-    overflow: auto;
+    overflow: hidden;
   }
   
 .sidenav li a {
@@ -73,4 +77,12 @@ body{
     background-color:#31394D;
     color:#31394D;
     padding: 30px 16px;
+}
+
+hr{
+    background-color: #CBA67A;
+    width: 40%;
+    height: 5px;
+    float: left;
+    border: none;
 }
