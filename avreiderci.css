@@ -1,5 +1,6 @@
 body{
    background-color: #e6dac4; 
+   font-family: Helvetica;
 }
 
 .portfolio{
@@ -81,7 +82,7 @@ h2 {
     color:#31394D
 }
 
-.empty a:hover{
+.empty li a:hover{
     background-color:#31394D;
     color:#31394D;
     padding: 30px 16px;
@@ -106,7 +107,6 @@ hr{
 /*wild dunes image*/
 .wild{
     width: 800px;
-
     float: center;
     margin-left: auto;
     margin-right: auto;
@@ -120,5 +120,13 @@ hr{
 
 .all{
     font-size: 20px;
+}
+
+.dev{
+    height: 500px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
