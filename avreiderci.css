@@ -10,6 +10,14 @@ h1{
     font-size: 60px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #31394D;
@@ -86,3 +94,31 @@ hr{
     float: left;
     border: none;
 }
+
+.abcd {
+    background-color: #CBA67A;
+    width: 80%;
+    height: 2.5px;
+    float: left;
+    border: none;
+}
+
+/*wild dunes image*/
+.wild{
+    width: 800px;
+
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.all a{
+    color:black;
+}
+
+.all{
+    font-size: 20px;
+}
+
