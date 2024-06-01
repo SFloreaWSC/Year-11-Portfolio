@@ -148,3 +148,9 @@ hr{
 i {
     color:rgba(47, 47, 47, 0.807)
 }
+
+/*other italics*/
+.ita {
+    font-style: italic;
+    color: rgba(25, 25, 25, 0.807);
+}
