@@ -154,3 +154,24 @@ i {
     font-style: italic;
     color: rgba(25, 25, 25, 0.807);
 }
+
+/*development testing section image size*/
+.test {
+    width: 315px;
+    float: right;
+    border: 5px solid #CBA67A;
+    border-width: 5px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+}
+.devyo {
+    width:40%;
+    float: center;
+    border: 5px solid #CBA67A;
+    border-width: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
